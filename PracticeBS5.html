@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            pratique de bootstrap
+        </title>
+    </head>
+
+    <body>
+        <div class="container-fluid m-0 p-0">
+            <!--heading-->
+            <h1>pratique bootstrap</h1>
+            <!--nav-->
+            <nav class="bg-dark p-">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white">exercice</a></li>
+                    <li class="nav-item"><a class="nav-link text-white">quiz</a></li>
+                    <li class="nav-item"><a class="nav-link text-white">prefernces</a></li>
+                </ul>
+            </nav>
+            <!--row-->
+            <div class="row">
+                <!--HTML-->
+                <div class="col-3 p-4 border">
+                    <h1 class="text-center my-2 p-2">HTML</h1>
+                    <p class="text-center my-2 p-2">Hyper text markup luangage</p>
+
+                    <div class="d-flex flex-column my-4">
+                        <div class="col-7 btn btn-dark mx-auto my-2">
+                            <a class="text-white text-decoration-none" href="#">exercice</a>
+                        </div>
+                        <div class="col-7 btn btn-dark mx-auto my-2">
+                            <a class="text-white text-decoration-none" href="#">quiz</a>
+                        </div>
+                        <div class="col-7 btn btn-dark mx-auto my-2">
+                            <a class="text-white text-decoration-none" href="#">prefernces</a>
+                        </div>
+                    </div>
+                </div>
+                <!--CSS-->
+                <div class="col-3 p-4 border">
+                    <h1 class="text-center my-2 p-2">CSS</h1>
+                    <p class="text-center my-2 p-2">Casscading style sheet</p>
+
+                    <div class="d-flex flex-column my-4">
+                        <div class="col-7 btn btn-dark mx-auto my-2">
+                            <a class="text-white text-decoration-none" href="#">exercice</a>
+                        </div>
+                        <div class="col-7 btn btn-dark mx-auto my-2">
+                            <a class="text-white text-decoration-none" href="#">quiz</a>
+                        </div>
+                        <div class="col-7 btn btn-dark mx-auto my-2">
+                            <a class="text-white text-decoration-none" href="#">prefernces</a>
+                        </div>
+                    </div>
+                </div>
+                <!--JS-->
+                <div class="col-3 p-4 border">
+                    <h1 class="text-center my-2 p-2">Javascript</h1>
+                    <p class="text-center my-2 p-2">javasript</p>
+
+                    <div class="d-flex flex-column my-4">
+                        <div class="col-7 btn btn-dark mx-auto my-2">
+                            <a class="text-white text-decoration-none" href="#">exercice</a>
+                        </div>
+                        <div class="col-7 btn btn-dark mx-auto my-2">
+                            <a class="text-white text-decoration-none" href="#">quiz</a>
+                        </div>
+                        <div class="col-7 btn btn-dark mx-auto my-2">
+                            <a class="text-white text-decoration-none" href="#">prefernces</a>
+                        </div>
+                    </div>
+                </div>
+                <!--FORM-->
+                <div class="col-3 p-4 border">
+                    <form>
+                        <h1 class="text-center text-tahoma p-2 my-2">Login</h1>
+                        <label class="h5">E-mail :</label>
+                        <br>
+                        <input class="col-10 mx-3 py-1" type="email" name="email">
+                        <br>
+                        <label class="h5 mt-4">Password :</label>
+                        <br>
+                        <input class="col-10 mx-3 py-1" type="password" password>
+                        <br>
+                        <input class="col-5 btn btn-info d-block mt-4 mx-auto" type="submit" value="connexion">
+                        <br>
+                        <a class="text-dark text-decoration-none col-4 mx-4" href="#">forget password?</a>
+                        <a class="text-dark text-decoration-none col-4 mx-4" href="#">signup</a>
+                    </form>
+                </div>
+            </div>
+            <!--FOOTER "pagination"-->
+            <footer class="row">
+                <ul class="pagination justify-content-center mt-5">
+                    <li class="page-item disabled"><a class="page-link" href="#">back</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">next</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
